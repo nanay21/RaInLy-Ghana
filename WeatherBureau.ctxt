@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=WeatherBureau
+comment0.text=\r\n\ This\ class\ represents\ a\ weather\ service\ that\ keeps\ track\ of\ all\ the\ weather\r\n\ stations.\ Internally,\ it\ should\ use\ a\ map\ to\ associate\ weather\ station\ IDs\r\n\ with\ weather\ station\ objects.\r\n\r\n\ \ @author\ Nana\ Yaw\ Barimah\ Oteng\r\n\ \ @version\ 2021.04.17\r\n
+comment1.params=
+comment1.target=WeatherBureau()
+comment1.text=\r\n\ Initializes\ a\ newly\ created\ WeatherBureau\ object.\r\n
+comment2.params=summary
+comment2.target=void\ recordDailySummary(java.lang.String)
+comment2.text=\r\n\ Takes\ a\ single\ string\ representing\ a\ single\ one-line\ daily\ weather\r\n\ summary\ for\ one\ day\ at\ one\ weather\ station\ (i.e.,\ one\ line\ from\ a\ \r\n\ weather\ data\ input\ sources).\ If\ the\ rainfall\ amount\ in\ the\ text\ is\ -1,\ \r\n\ ignore\ the\ line\ (it\ is\ missing\ its\ rainfall\ data).\ Otherwise,\ record\ the\ \r\n\ rainfall\ from\ this\ daily\ summary\ in\ the\ corresponding\ weather\ station\ \r\n\ object\ in\ the\ bureau's\ map\ (create\ a\ new\ weather\ station\ object\ \r\n\ if\ the\ station\ ID\ doesn't\ correspond\ to\ one\ you've\ seen\ before).\r\n\ @param\ summary\ is\ the\ one-line\ summary\ for\ one\ day\ \r\n\ at\ one\ weather\ station.\r\n
+comment3.params=inStream
+comment3.target=void\ recordDailySummaries(java.util.Scanner)
+comment3.text=\r\n\ Takes\ a\ Scanner\ object\ as\ a\ parameter\ that\ represents\ an\ input\ data\ \r\n\ source,\ such\ as\ a\ file\ containing\ a\ series\ of\ daily\ summary\ records\ \r\n\ for\ one\ or\ more\ weather\ stations.\ Record\ all\ of\ the\ daily\ summaries\ \r\n\ from\ the\ input\ source.\r\n\ @param\ inStream\ is\ the\ Scanner\ object\ that\ represents\ an\ input\ data\ file\r\n\ source\ for\ a\ summary\ of\ multiple\ weather\ stations.\r\n
+comment4.params=id
+comment4.target=WeatherStation\ getStation(java.lang.String)
+comment4.text=\r\n\ Return\ the\ weather\ station\ object\ for\ the\ given\ weather\ station\ ID\ \r\n\ (or\ null,\ if\ the\ identifier\ doesn't\ match\ any\ weather\ station\ \r\n\ you've\ seen\ so\ far).\ \r\n\ @param\ id\ is\ the\ id\ of\ the\ weather\ station\ being\ returned.\r\n\ @return\ returns\ the\ weather\ station\ object\ for\ the\ given\ weather\ \r\n\ station\ ID.\r\n
+comment5.params=month
+comment5.target=WeatherStation\ lowestStation(int)
+comment5.text=\r\n\ Returns\ the\ weather\ station\ that\ has\ the\ lowest\ average\ rainfall\ \r\n\ for\ the\ specified\ month\ (or\ null,\ if\ the\ weather\ bureau\ hasn't\ \r\n\ recorded\ any\ rainfall\ daily\ summaries\ for\ any\ station\ in\ the\ \r\n\ specified\ month).\r\n\ @param\ month\ is\ the\ month\ being\ checked\ for\ the\ station\ with\r\n\ the\ lowest\ avg\ rainfall\ in\ that\ month.\r\n\ @return\ returns\ the\ station\ with\ lowest\ avg\ rainfall\ in\ that\ \r\n\ month.\r\n
+comment6.params=
+comment6.target=WeatherStation\ lowestStation()
+comment6.text=\r\n\ Returns\ the\ weather\ station\ that\ has\ the\ lowest\ average\ rainfall\ \r\n\ recorded\ for\ any\ month\ (1-12)\ (or\ null,\ if\ the\ weather\ bureau\ hasn't\ \r\n\ recorded\ any\ rainfall\ daily\ summaries\ for\ any\ station\ for\ any\ month).\ \r\n\ If\ multiple\ stations\ have\ the\ same\ lowest\ average\ rainfall\ amount,\ just\ \r\n\ return\ the\ first\ one\ you\ find\ (of\ those\ that\ tied\ for\ lowest).\ Remember,\ \r\n\ you\ can\ use\ the\ getLowestMonth()\ method\ on\ each\ station\r\n\ to\ find\ out\ which\ \r\n\ month\ has\ its\ specific\ lowest\ average\ value.\r\n\ @return\ returns\ the\ month\ with\ the\ station\ with\ \r\n\ lowest\ avg\ rainfall\ recorded\r\n\ for\ any\ month.\r\n
+numComments=7

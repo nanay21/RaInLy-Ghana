@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=WeatherStationTest
+comment0.text=\r\n\ \ Ensures\ that\ all\ the\ methods\ in\ the\ WeatherStation\ Class\r\n\ \ are\ functioning\ as\ expected.\ \r\n\r\n\ \ @author\ Nana\ Yaw\ Barimah\ Oteng\ \r\n\ \ @version\ 2021.04.17\r\n
+comment1.params=
+comment1.target=WeatherStationTest()
+comment1.text=\r\n\ Creates\ a\ new\ WeatherStationTest\ test\ object.\r\n
+comment2.params=
+comment2.target=void\ setUp()
+comment2.text=\r\n\ Sets\ up\ the\ test\ fixture.\r\n\ Called\ before\ every\ test\ case\ method.\r\n
+comment3.params=
+comment3.target=void\ testGetId()
+comment3.text=\r\n\ Tests\ GetID\ to\ see\ if\ a\ getID()\ returns\ the\ appropriate\ String\r\n\ value.\r\n\ \r\n
+comment4.params=
+comment4.target=void\ testGetAvgForMonth()
+comment4.text=\r\n\ Tests\ that\ getAvgForMonth()\ returns\ 400.00\ for\ January,\ \r\n\ when\ the\ daily\ recorded\ value\ is\ 3\ and\ the\ total\ rainfall\r\n\ is\ 1200.\ It\ also\ ensures\ that\ the\ method\ returns\ -1,\ when\ no\r\n\ rainfall\ values\ have\ been\ recorded.\r\n\ \r\n
+comment5.params=
+comment5.target=void\ testGetCountForMonth()
+comment5.text=\r\n\ Tests\ that\ getCountForMonth(month)\ returns\ 6\ for\ the\ count\ \r\n\ of\ daily\ recorded\ values\ for\ January.\ \r\n\ \r\n
+comment6.params=
+comment6.target=void\ testGetLowestMonth()
+comment6.text=\r\n\ Tests\ that\ getLowestMonth()\ returns\ the\ month\r\n\ with\ the\ lowest\ average\ rainfall,\ when\ the\ avg\ rainfall\ isn't\ \r\n\ for\ -1.\r\n\ \r\n
+numComments=7
