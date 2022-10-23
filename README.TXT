@@ -4,12 +4,6 @@ Tell the reader (someone who does not know anything about this project)
 all they need to know. The comments should usually include at least:
 ------------------------------------------------------------------------
 
-ASSIGNMENT:
+AUTHOR(S): Nana Yaw Barimah Oteng
 
-AUTHOR(S):
-
-VERSION or DATE:
-
-HOW TO START THIS PROJECT:
-
-USER INSTRUCTIONS:
+VERSION or DATE: 2021/10/23
